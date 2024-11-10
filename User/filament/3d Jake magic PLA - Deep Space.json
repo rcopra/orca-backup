@@ -1,0 +1,16 @@
+{
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_settings_id": [
+        "3d Jake magic PLA - Deep Space"
+    ],
+    "filament_vendor": [
+        "3dJake"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "3d Jake magic PLA - Deep Space",
+    "version": "2.0.1.0"
+}

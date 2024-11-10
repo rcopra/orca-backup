@@ -1,0 +1,25 @@
+{
+    "filament_max_volumetric_speed": [
+        "15"
+    ],
+    "filament_settings_id": [
+        "Voron Generic PLA - Copy"
+    ],
+    "filament_vendor": [
+        "3dJake"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Voron Generic PLA - Copy",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "215"
+    ],
+    "version": "1.9.0.2"
+}

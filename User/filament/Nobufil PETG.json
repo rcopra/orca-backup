@@ -1,0 +1,43 @@
+{
+    "default_filament_colour": [
+        "#005600"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "25"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_settings_id": [
+        "Nobufil PETG"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.04\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.03\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.02\n{endif}"
+    ],
+    "filament_vendor": [
+        "Nobufil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Sovol Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Nobufil PETG",
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "nozzle_temperature_range_high": [
+        "245"
+    ],
+    "nozzle_temperature_range_low": [
+        "225"
+    ],
+    "version": "2.0.1.0"
+}

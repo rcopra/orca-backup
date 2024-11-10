@@ -1,0 +1,49 @@
+{
+    "default_filament_colour": [
+        "#CC66FF"
+    ],
+    "filament_cost": [
+        "12.5"
+    ],
+    "filament_flow_ratio": [
+        "0.966"
+    ],
+    "filament_max_volumetric_speed": [
+        "24"
+    ],
+    "filament_settings_id": [
+        "3d Jake ecoPLA - Purple"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.0425\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.03\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.025\n{endif}"
+    ],
+    "filament_vendor": [
+        "3dJake"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Sovol Generic PLA",
+    "is_custom_defined": "0",
+    "name": "3d Jake ecoPLA - Purple",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.8.0.0"
+}

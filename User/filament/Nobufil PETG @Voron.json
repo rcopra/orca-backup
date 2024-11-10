@@ -1,0 +1,43 @@
+{
+    "default_filament_colour": [
+        "#005600"
+    ],
+    "filament_flow_ratio": [
+        "0.929"
+    ],
+    "filament_max_volumetric_speed": [
+        "16"
+    ],
+    "filament_retraction_length": [
+        "0.7"
+    ],
+    "filament_settings_id": [
+        "Nobufil PETG @Voron"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.055\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.02\n{endif}"
+    ],
+    "filament_vendor": [
+        "Nobufil"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "5"
+    ],
+    "inherits": "Voron Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Nobufil PETG @Voron",
+    "nozzle_temperature": [
+        "235"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "nozzle_temperature_range_high": [
+        "245"
+    ],
+    "nozzle_temperature_range_low": [
+        "225"
+    ],
+    "version": "2.0.1.0"
+}

@@ -1,0 +1,8 @@
+{
+    "from": "User",
+    "inherits": "0.24mm Draft @MyKlipper",
+    "is_custom_defined": "0",
+    "name": "0.24mm Draft @SV06",
+    "print_settings_id": "0.24mm Draft @SV06",
+    "version": "1.9.0.2"
+}

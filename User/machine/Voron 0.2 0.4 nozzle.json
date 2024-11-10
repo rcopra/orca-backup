@@ -1,0 +1,52 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n; G92 E0\n",
+    "change_filament_gcode": "M600",
+    "deretraction_speed": [
+        "40"
+    ],
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_max_jerk_e": [
+        "0",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "0",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "0",
+        "12"
+    ],
+    "machine_max_jerk_z": [
+        "0",
+        "0.4"
+    ],
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL=[initial_tool] CHAMBER=[chamber_temperature]",
+    "manual_filament_change": "1",
+    "name": "Voron 0.2 0.4 nozzle",
+    "print_host": "v0.local",
+    "printer_settings_id": "Voron 0.2 0.4 nozzle",
+    "retract_lift_enforce": [
+        "Top Only"
+    ],
+    "retraction_length": [
+        "0.5"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "support_multi_bed_types": "1",
+    "version": "1.9.0.2",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

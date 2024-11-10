@@ -1,0 +1,55 @@
+{
+    "default_filament_colour": [
+        "#E6E6E6"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.955"
+    ],
+    "filament_max_volumetric_speed": [
+        "25"
+    ],
+    "filament_settings_id": [
+        "Sunlu ABS - Clear"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.048\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.02\n{endif}"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "112"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "115"
+    ],
+    "inherits": "Voron Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Sunlu ABS - Clear",
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "260"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "textured_plate_temp": [
+        "112"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "115"
+    ],
+    "version": "1.9.0.2"
+}

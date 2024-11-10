@@ -1,0 +1,28 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "75"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_settings_id": [
+        "Bambu PETG"
+    ],
+    "filament_vendor": [
+        "Bambu"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Bambu PETG",
+    "pressure_advance": [
+        "0.0625"
+    ],
+    "version": "2.1.1.0"
+}

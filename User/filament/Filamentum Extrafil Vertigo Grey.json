@@ -1,0 +1,28 @@
+{
+    "additional_cooling_fan_speed": [
+        "30"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "Filamentum Extrafil Vertigo Grey"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Filamentum Extrafil Vertigo Grey",
+    "pressure_advance": [
+        "0.08"
+    ],
+    "version": "2.2.0.0"
+}

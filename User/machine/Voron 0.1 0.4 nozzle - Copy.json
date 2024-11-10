@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Voron 0.1 0.4 nozzle - Copy",
+    "print_host": "http://192.168.2.227/",
+    "printer_settings_id": "Voron 0.1 0.4 nozzle - Copy",
+    "support_multi_bed_types": "1",
+    "version": "1.9.0.2"
+}

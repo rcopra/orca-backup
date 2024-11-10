@@ -1,0 +1,52 @@
+{
+    "default_filament_colour": [
+        "#333333"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "filament_cost": [
+        "28"
+    ],
+    "filament_flow_ratio": [
+        "0.968"
+    ],
+    "filament_max_volumetric_speed": [
+        "17"
+    ],
+    "filament_settings_id": [
+        "Filamentum Vertigo Grey"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.039\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.0325\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.025\n{endif}"
+    ],
+    "filament_vendor": [
+        "Filamentum"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Sovol Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Filamentum Vertigo Grey",
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "overhang_fan_speed": [
+        "80"
+    ],
+    "overhang_fan_threshold": [
+        "75%"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.9.0.2"
+}

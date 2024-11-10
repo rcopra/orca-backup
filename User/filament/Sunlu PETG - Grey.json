@@ -1,0 +1,70 @@
+{
+    "default_filament_colour": [
+        "#4C4C4C"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_cost": [
+        "13"
+    ],
+    "filament_density": [
+        "1.45"
+    ],
+    "filament_flow_ratio": [
+        "0.972"
+    ],
+    "filament_max_volumetric_speed": [
+        "22"
+    ],
+    "filament_settings_id": [
+        "Sunlu PETG - Grey"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.061\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.035\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.02\n{endif}"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "5"
+    ],
+    "hot_plate_temp": [
+        "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "inherits": "Sovol Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Sunlu PETG - Grey",
+    "nozzle_temperature": [
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "textured_plate_temp": [
+        "75"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "75"
+    ],
+    "version": "1.8.0.0"
+}

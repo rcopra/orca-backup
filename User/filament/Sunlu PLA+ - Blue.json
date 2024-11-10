@@ -1,0 +1,43 @@
+{
+    "default_filament_colour": [
+        "#0000FF"
+    ],
+    "filament_cost": [
+        "12.5"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "26"
+    ],
+    "filament_settings_id": [
+        "Sunlu PLA+ - Blue"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.06\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.0375\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.025\n{endif}"
+    ],
+    "from": "User",
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Sovol Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Sunlu PLA+ - Blue",
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "215"
+    ],
+    "nozzle_temperature_range_low": [
+        "205"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.8.0.0"
+}

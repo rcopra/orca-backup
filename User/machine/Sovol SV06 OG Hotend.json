@@ -1,0 +1,84 @@
+{
+    "bed_custom_model": "/Users/rick/code/Slicer_Configs/SV06 Resources/SV06-buildPlate.stl",
+    "bed_custom_texture": "/Users/rick/code/Slicer_Configs/SV06 Resources/SV06-texture.svg",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
+    "change_filament_gcode": "M600",
+    "deretraction_speed": [
+        "40"
+    ],
+    "emit_machine_limits_to_gcode": "0",
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Sovol SV06 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_max_acceleration_e": [
+        "6000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "6000",
+        "1250"
+    ],
+    "machine_max_acceleration_retracting": [
+        "6000",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "6000",
+        "960"
+    ],
+    "machine_max_acceleration_y": [
+        "6000",
+        "960"
+    ],
+    "machine_max_acceleration_z": [
+        "200",
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "4.5",
+        "4.5"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "120"
+    ],
+    "machine_max_speed_x": [
+        "300",
+        "100"
+    ],
+    "machine_max_speed_y": [
+        "300",
+        "100"
+    ],
+    "machine_max_speed_z": [
+        "12",
+        "12"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M104 S0 ; Stops PS/SS from sending temp waits separately\nM140 S0\nM117\n\nPRINT_START BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]\n\n{if curr_bed_type==\"Cool Plate\"}\n  SET_GCODE_OFFSET Z=+0.23\n{else}\n  SET_GCODE_OFFSET Z=0.0\n{endif}\n\nLINE_PURGE\n\n;; If you are passing variables to PRINT_START, comment out above line and uncomment the last 3 lines instead. (I already did this)\n;; Guide: https://github.com/AndrewEllis93/Print-Tuning-Guide/blob/main/articles/passing_slicer_variables.md\n;; Make sure the variable names match (for example if you use \"EXTRUDER\" instead of \"HOTEND\")",
+    "max_layer_height": [
+        "0.45"
+    ],
+    "min_layer_height": [
+        "0.15"
+    ],
+    "name": "Sovol SV06 OG Hotend",
+    "nozzle_type": "brass",
+    "print_host": "sovol.local:82",
+    "printable_area": [
+        "0x0",
+        "223x0",
+        "223x223",
+        "0x223"
+    ],
+    "printable_height": "245",
+    "printer_settings_id": "Sovol SV06 OG Hotend",
+    "retraction_speed": [
+        "40"
+    ],
+    "version": "1.8.0.0",
+    "wipe": [
+        "0"
+    ]
+}

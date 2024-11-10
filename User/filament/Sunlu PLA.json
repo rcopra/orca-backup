@@ -1,0 +1,37 @@
+{
+    "additional_cooling_fan_speed": [
+        "16"
+    ],
+    "complete_print_exhaust_fan_speed": [
+        "50"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "50"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "Sunlu PLA"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Sunlu PLA",
+    "pressure_advance": [
+        "0.065"
+    ],
+    "version": "2.2.0.0"
+}

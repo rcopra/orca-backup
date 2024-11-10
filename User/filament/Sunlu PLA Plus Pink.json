@@ -1,0 +1,40 @@
+{
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "17"
+    ],
+    "filament_settings_id": [
+        "Sunlu PLA Plus Pink"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.0425\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.0325\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.025\n{endif}"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Sunlu PLA Plus Pink",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "version": "1.9.0.2"
+}

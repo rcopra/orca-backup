@@ -1,0 +1,73 @@
+{
+    "bed_custom_model": "C:\\\\Users\\\\shawn\\\\code\\\\autoferrit\\\\slicer-profiles\\\\Models\\\\BuildPlates\\\\Sovol\\\\sv06_plus_buildplate.stl",
+    "deretraction_speed": [
+        "50"
+    ],
+    "from": "User",
+    "inherits": "Sovol SV06 Plus 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_max_acceleration_extruding": [
+        "1250",
+        "1250"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1500",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "1000",
+        "960"
+    ],
+    "machine_max_acceleration_y": [
+        "1000",
+        "960"
+    ],
+    "machine_max_jerk_e": [
+        "4.5",
+        "4.5"
+    ],
+    "machine_max_jerk_z": [
+        "0.4",
+        "0.4"
+    ],
+    "machine_max_speed_x": [
+        "200",
+        "140"
+    ],
+    "machine_max_speed_y": [
+        "200",
+        "140"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M104 S0 ; Stops PS/SS from sending temp waits separately\nM140 S0\nBED_MESH_PROFILE LOAD=default \nPRINT_START BED=[hot_plate_temp_initial_layer] HOTEND={nozzle_temperature_initial_layer[initial_extruder]} CHAMBER=[chamber_temperature]\nPURGE_LINE\n\n;; If you are passing variables to PRINT_START, comment out above line and uncomment the last 3 lines instead. (I already did this)\n;; Guide: https://github.com/AndrewEllis93/Print-Tuning-Guide/blob/main/articles/passing_slicer_variables.md\n;; Make sure the variable names match (for example if you use \"EXTRUDER\" instead of \"HOTEND\")",
+    "max_layer_height": [
+        "0.3"
+    ],
+    "min_layer_height": [
+        "0.04"
+    ],
+    "name": "Sovol SV06 Plus 0.4 nozzle - Spacerock",
+    "nozzle_type": "brass",
+    "print_host": "printatron",
+    "printer_settings_id": "Sovol SV06 Plus 0.4 nozzle - Spacerock",
+    "retraction_length": [
+        "0.3"
+    ],
+    "retraction_minimum_travel": [
+        "0.2"
+    ],
+    "retraction_speed": [
+        "50"
+    ],
+    "version": "1.0.0.0",
+    "wipe": [
+        "0"
+    ],
+    "wipe_distance": [
+        "0"
+    ],
+    "z_hop": [
+        "0.4"
+    ]
+}

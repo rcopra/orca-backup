@@ -1,0 +1,64 @@
+{
+    "close_fan_the_first_x_layers": [
+        "2"
+    ],
+    "default_filament_colour": [
+        "#FD8008"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "20"
+    ],
+    "filament_density": [
+        "1.45"
+    ],
+    "filament_diameter": [
+        "1.7"
+    ],
+    "filament_max_volumetric_speed": [
+        "17"
+    ],
+    "filament_retraction_length": [
+        "0.7"
+    ],
+    "filament_settings_id": [
+        "eSun PETG - Orange Transparent"
+    ],
+    "filament_vendor": [
+        "eSun"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Sovol Generic PETG",
+    "is_custom_defined": "0",
+    "name": "eSun PETG - Orange Transparent",
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "nozzle_temperature_range_high": [
+        "235"
+    ],
+    "overhang_fan_speed": [
+        "60"
+    ],
+    "slow_down_min_speed": [
+        "15"
+    ],
+    "version": "1.8.0.0"
+}

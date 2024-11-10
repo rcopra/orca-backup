@@ -1,0 +1,64 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "45"
+    ],
+    "fan_min_speed": [
+        "45"
+    ],
+    "filament_cost": [
+        "13"
+    ],
+    "filament_density": [
+        "1.45"
+    ],
+    "filament_flow_ratio": [
+        "0.962"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_retraction_length": [
+        "0.7"
+    ],
+    "filament_settings_id": [
+        "Sunlu PETG - Black"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.06\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.035\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.02\n{endif}"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "5"
+    ],
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "inherits": "Sovol Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Sunlu PETG - Black",
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "nozzle_temperature_range_high": [
+        "235"
+    ],
+    "overhang_fan_speed": [
+        "60"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "version": "1.8.0.0"
+}

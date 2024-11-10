@@ -1,0 +1,25 @@
+{
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "24"
+    ],
+    "filament_settings_id": [
+        "Sovol Generic PLA - Copy"
+    ],
+    "filament_start_gcode": [
+        "; Set pressure advance per-filament for different nozzle sizes\n{if nozzle_diameter[0]==0.4}SET_PRESSURE_ADVANCE ADVANCE=0.039\n{elsif nozzle_diameter[0]==0.6}SET_PRESSURE_ADVANCE ADVANCE=0.0325\n{elsif nozzle_diameter[0]==0.8}SET_PRESSURE_ADVANCE ADVANCE=0.025\n{endif}"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "inherits": "Sovol Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Sovol Generic PLA - Copy",
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "version": "2.0.1.0"
+}

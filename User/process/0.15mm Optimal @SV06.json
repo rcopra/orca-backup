@@ -1,0 +1,8 @@
+{
+    "from": "User",
+    "inherits": "0.15mm Optimal @MyKlipper",
+    "is_custom_defined": "0",
+    "name": "0.15mm Optimal @SV06",
+    "print_settings_id": "0.15mm Optimal @SV06",
+    "version": "1.9.0.2"
+}
